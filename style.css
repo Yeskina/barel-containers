@@ -1,0 +1,298 @@
+body {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+  height: 95px;
+  background-color: #ffffff;
+}
+
+main {
+  width: 100%;
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e28527;
+  font-size: 12px;
+  margin: 0 auto;
+  color: #ffffff;
+  width: 458px;
+  height: 24px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+ins {
+  margin-left: 5px;
+}
+
+svg {
+  font-size: 35px;
+  color: gray;
+}
+
+.header-inf {
+  display: flex;
+}
+
+.get-started {
+  color: white;
+  width: 191px;
+  height: 32px;
+  background: transparent linear-gradient(269deg, #e28527 0%, #d55223 100%) 0% 0% no-repeat
+    padding-box;
+  box-shadow: 0px 3px 6px #d552234d;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-self: center;
+  justify-content: space-around;
+  width: 458px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 24px;
+}
+
+.logo {
+  margin-left: 350px;
+}
+
+.main-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(./images/background-1920.png);
+  height: 602px;
+}
+
+.main-text {
+  width: 457px;
+  height: 251px;
+  margin-top: 100px;
+  margin-left: 440px;
+}
+
+.ask {
+  font-family: Roboto;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.level {
+  font-family: 'Fredoka One';
+  font-size: 36px;
+  letter-spacing: 1.44px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #a55e0080;
+}
+
+.barel-golden {
+  height: 452px;
+  width: 282px;
+  margin-right: 620px;
+  margin-top: 80px;
+  animation: rotation 0.5s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.leaf-05 {
+  width: 172px;
+  height: 181px;
+  top: 8px;
+  left: 560px;
+  position: absolute;
+}
+
+.leaf-04 {
+  top: 538px;
+  left: 168px;
+  position: absolute;
+}
+
+.leaf-01 {
+  position: absolute;
+  left: 1360px;
+  top: 160px;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.btn.btn-light {
+  width: 191px;
+  height: 40px;
+  color: #e28527;
+  font-size: 14px;
+}
+
+.btn-outline-light {
+  margin-left: 15px;
+  width: 191px;
+  height: 40px;
+}
+
+.instruction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Fredoka One';
+  font-size: 36px;
+  letter-spacing: 1.44px;
+  color: #d55223;
+  margin-top: 50px;
+}
+
+.barel-containers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.barel-golden-container {
+  background-color: #f3ca22;
+  background-image: url(./images/barel-smaller-golden-02.png);
+  --animate-duration: 0.5s;
+}
+
+.barel-amber-container {
+  background-image: url(./images/barel-amber-02.png);
+  background-color: #e75300;
+  --animate-duration: 0.75s;
+}
+
+.barel-dark-container {
+  background-image: url(./images/barel-dark-02.png);
+  background-color: #cc0000;
+  --animate-duration: 1s;
+}
+
+.barel-verydark-container {
+  background-image: url(./images/barel-verydark-02.png);
+  background-color: #7a0200;
+  --animate-duration: 1.25s;
+}
+
+.barel-dark-container:hover,
+.barel-verydark-container:hover,
+.barel-amber-container:hover,
+.barel-golden-container:hover {
+  background-position: 50% 80px;
+}
+
+.barel-dark-container,
+.barel-golden-container,
+.barel-amber-container,
+.barel-verydark-container {
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: 50% 105px;
+  transition: 0.5s;
+  width: 263px;
+  height: 331px;
+}
+
+.barel-containers > div:not(:last-child) {
+  margin-right: 30px;
+}
+
+.barel-golden-bottom {
+  background: linear-gradient(180deg, rgba(243, 202, 34, 0), #d87a00 100%);
+}
+
+.barel-amber-bottom {
+  background: linear-gradient(180deg, rgba(243, 202, 34, 0), #531e00 100%);
+}
+
+.barel-dark-bottom,
+.barel-verydark-bottom {
+  background: linear-gradient(180deg, rgba(243, 202, 34, 0), black 100%);
+}
+
+.barel-golden-bottom,
+.barel-amber-bottom,
+.barel-dark-bottom,
+.barel-verydark-bottom {
+  width: 100%;
+  height: 140px;
+  z-index: -1;
+}
+
+.barel-golden-top,
+.barel-amber-top,
+.barel-dark-top,
+.barel-verydark-top {
+  height: 200px;
+}
+
+.letters {
+  padding-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Fredoka One';
+}
+
+.tech-task-text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.get-started-button {
+  background: transparent linear-gradient(180deg, #ffffff 0%, #ffecd9 100%) 0% 0% no-repeat
+    padding-box;
+  box-shadow: 0px 6px 9px #a55e00bf;
+  border-radius: 4px;
+  width: 191px;
+  height: 40px;
+  color: #d55223;
+  margin-top: 70px;
+  margin-left: 35px;
+}
+
+.tech-task-price {
+  letter-spacing: 0.48px;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 5px;
+}
